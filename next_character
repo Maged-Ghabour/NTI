@@ -6,7 +6,7 @@
       
         /*
                     This condition 
-         Because when put z as an arguments will return aa
+         to Fixed when put z as an arguments will return aa
         */
        
         if(strlen($next_letter) > 1){
