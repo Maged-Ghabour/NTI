@@ -1,0 +1,25 @@
+<?php
+    function next_letter($letter){
+        $next_letter= ++$letter;
+
+
+      
+        /*
+                    This condition 
+         Because when put z as an arguments will return aa
+        */
+       
+        if(strlen($next_letter) > 1){
+            $next_letter = $next_letter[0];
+            return $next_letter;
+        }
+        
+        return $next_letter;
+    }
+
+   echo next_letter("z")."<br>";
+
+  echo next_letter("a");
+   
+
+?>
